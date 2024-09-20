@@ -37,6 +37,12 @@ body {
     font-size:calc(24px + (48 - 24) * ((100vw - 300px) / (1600 - 300)));;
 }
 
+.date-div {
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+}
+
 .hs1-item {
     border-right: 1px solid #777;
 }
@@ -54,7 +60,7 @@ body {
     color: var(--tert);
 }
 
-.hs2-link{
+.hs2-link, .more-btn{
     margin: 0 8px;
     color: var(--tert);
     text-transform: uppercase;
@@ -90,6 +96,31 @@ body {
     /* border: 1px solid orange; */
 }
 
+#dateDiv1 {
+    background-color: var(--date1);
+}
+
+#dateDiv2 {
+    background-color: var(--date2);
+}
+
+#dateDiv3{
+    background-color: var(--date3);
+}
+
+#footerSection1 {
+    width: 100%;
+    padding: 40px 0;
+    background-color: var(--prim);
+    background-image: var(--grad);
+}
+
+#footerSection {
+    width: 100%;
+    padding: 20px 0 40px;
+    background-color: var(--footerSec2);
+}
+
 #headerSection1 {
     width: 100%;
     padding: 4px 0;
@@ -113,6 +144,16 @@ body {
     #ms2Row, .content-box {
         border: none;
     }
+}
+
+#oppsList {
+    list-style-image: url('../images/chat.png');
+    padding-left: 18px;
+}
+
+#servicesList {
+    list-style-image: url('../images/cog2.png');
+    padding-left: 15px;
 }
 
 #stable {
